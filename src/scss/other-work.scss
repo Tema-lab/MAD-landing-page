@@ -1,0 +1,176 @@
+@media (min-width: 375px) {
+  .our-other-work {
+    display: none;
+  }
+  .work-title{
+    display: none;
+  }
+
+}
+@media (min-width:768px) {
+  .extra-1024{
+    display: none;
+  }
+  .info-1024{
+    display: none;
+  }
+  .our-other-work {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .work-title{
+      display: flex;
+      margin-top: 30px;
+      margin-bottom: 40px;
+      font-size: 32px;
+      color: #000000;
+  }
+  .work{
+    &__item{
+      width: 354px;
+    }
+    &__subtitle{
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    &__info{
+      font-weight: normal;
+      font-size: 14px;
+    }
+    &__first-img{
+      background-image: url("../../src/img/other-work/work2.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 354px;
+      height: 489px;
+    }
+    &__sec-img{
+      background-image: url("../../src/img/other-work/work1.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 354px;
+      height: 489px;
+    }
+
+    &__wrapper{
+      gap: 20px;
+      display: flex;
+      //justify-content: center;
+      list-style: none;
+    }
+  }
+  .large{
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+
+
+  .our-other-work {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .large{
+    display: block;
+  }
+  .work{
+    &__item{
+      width: 301px;
+
+    }
+    &__subtitle{
+      margin-top: 20px;
+      margin-bottom: 15px;
+      font-weight: 600;
+      font-size: 18px;
+    }
+    &__info{
+      font-weight: normal;
+      font-size: 14px;
+    }
+    &__first-img{
+      background-image: url("../../src/img/other-work/work2.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 301px;
+      height: 416px;
+    }
+    &__sec-img{
+      background-image: url("../../src/img/other-work/work1.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 301px;
+      height: 416px;
+    }
+    &__third-img{
+      background-image: url("../../src/img/other-work/calendar-similar1024.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 301px;
+      height: 416px;
+    }
+
+    &__wrapper{
+      gap: 20px;
+      display: flex;
+      justify-content: center;
+
+      list-style: none;
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .work {
+
+  &__item{
+    width: 380px;
+  }
+    &__first-img {
+      background-image: url("../../src/img/other-work/1280/other2.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 380px;
+      height: 526px;
+    }
+
+    &__sec-img {
+      background-image: url("../../src/img/other-work/1280/other1280.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 380px;
+      height: 526px;
+    }
+
+    &__third-img {
+      background-image: url("../../src/img/other-work/1280/other-work1280.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 380px;
+      height: 526px;
+    }
+  }
+}
+@media (min-width: 1440px) {
+  .work-title{
+    display: none;
+  }
+  .our-other-work{
+    display: none;
+  }
+}

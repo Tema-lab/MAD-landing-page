@@ -1,0 +1,784 @@
+@media (min-width: 375px) {
+  .mask-back{
+    background-image: url("../../src/img/masks/maska.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 264px;
+  }
+  .mask__wrapper{
+    background-color: #F2F2F2;
+  }
+  .page-header{
+    margin-bottom: 20px;
+  }
+  .mask-container{
+    margin: 0 auto;
+  }
+  .image-lightbox:hover img{
+    z-index: 99999;
+    transform: translateZ(-100px)scale(1.5);
+  }
+  .image-lightbox img{
+    transition:transform 0.25s ease;
+  }
+  .mask-list-back1{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 150px;
+  }
+  .mask-list-back2{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 150px;
+  }
+  .mask-list-back3{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+  }
+  .mask-list-back4{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+  }
+  .mask-list-back5{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+  }
+  .mask-list-back6{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+  }
+  .mask-list-back7{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 160px;
+  }
+  .mask-list-back8{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 160px;
+  }
+  .mask-list-back9{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 160px;
+  }
+  .mask-list-back10{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 160px;
+  }
+  .mask-list-back11{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 160px;
+  }
+  .mask-list-back12{
+    background-image: url("../../src/img/masks/plakat.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 224px;
+    width: 160px;
+  }
+
+}
+
+@media (min-width: 768px) {
+  .vertical{
+    &__type{
+      width: 229px;
+    }
+  }
+  .mask-list-back1{
+    background-image: url("../../src/img/masks/768/plakat-maska1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back2{
+    background-image: url("../../src/img/masks/768/plakat-maska2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back3{
+    background-image: url("../../src/img/masks/768/plakat-maska3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back4{
+    background-image: url("../../src/img/masks/768/plakat-maska4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back5{
+    background-image: url("../../src/img/masks/768/plakat-maska5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back6{
+    background-image: url("../../src/img/masks/768/plakat-maska6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back7{
+    background-image: url("../../src/img/masks/768/plakat-maska7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back8{
+    background-image: url("../../src/img/masks/768/plakat-maska8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back9{
+    background-image: url("../../src/img/masks/768/plakat-maska9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back10{
+    background-image: url("../../src/img/masks/768/plakat-maska10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back11{
+    background-image: url("../../src/img/masks/768/plakat-maska11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+  .mask-list-back12{
+    background-image: url("../../src/img/masks/768/plakat-maska12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 229px;
+    height: 321px;
+  }
+
+
+  .mask-back{
+    background-image: url("../../src/img/masks/maska768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 411px;
+  }
+}
+@media (min-width: 1024px) {
+  .vertical{
+    &__type{
+      width: 141px;
+    }
+  }
+  .mask-list-back1{
+    background-image: url("../../src/img/masks/1024/plakat1024-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back2{
+    background-image: url("../../src/img/masks/1024/plakat1024-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back3{
+    background-image: url("../../src/img/masks/1024/plakat1024-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back4{
+    background-image: url("../../src/img/masks/1024/plakat1024-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back5{
+    background-image: url("../../src/img/masks/1024/plakat1024-5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back6{
+    background-image: url("../../src/img/masks/1024/plakat1024-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back7{
+    background-image: url("../../src/img/masks/1024/plakat1024-7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back8{
+    background-image: url("../../src/img/masks/1024/plakat1024-8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back9{
+    background-image: url("../../src/img/masks/1024/plakat1024-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back10{
+    background-image: url("../../src/img/masks/1024/plakat1024-10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back11{
+    background-image: url("../../src/img/masks/1024/plakat1024-11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+  .mask-list-back12{
+    background-image: url("../../src/img/masks/1024/plakat1024-12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 300px;
+    height: 421px;
+  }
+
+
+ //.calendar{
+ //  &__title{
+ //    font-size: 42px;
+ //  }
+ //}
+
+  .mask-back{
+    background-image: url("../../src/img/masks/maska-back1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 548px;
+  }
+}
+@media (min-width: 1280px) {
+  .mask-back{
+    background-image: url("../../src/img/masks/1280/maska1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 686px;
+
+  }
+  .vertical{
+    &__type-cal{
+      width: 170px;
+    }
+  }
+  .mask-list-back1{
+    background-image: url("../../src/img/masks/1280/plakat1280-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back2{
+    background-image: url("../../src/img/masks/1280/plakat1280-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back3{
+    background-image: url("../../src/img/masks/1280/plakat1280-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back4{
+    background-image: url("../../src/img/masks/1280/plakat1280-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back5{
+    background-image: url("../../src/img/masks/1280/plakat1280-5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back6{
+    background-image: url("../../src/img/masks/1280/plakat1280-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back7{
+    background-image: url("../../src/img/masks/1280/plakat1280-7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back8{
+    background-image: url("../../src/img/masks/1280/plakat1280-8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back9{
+    background-image: url("../../src/img/masks/1280/plakat1280-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back10{
+    background-image: url("../../src/img/masks/1280/plakat1280-10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back11{
+    background-image: url("../../src/img/masks/1280/plakat1280-11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+  .mask-list-back12{
+    background-image: url("../../src/img/masks/1280/plakat1280-12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 535px;
+    width: 381px;
+  }
+
+}
+@media (min-width: 1440px) {
+  .mask-list-back1{
+    background-image: url("../../src/img/masks/1280/plakat1280-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back2{
+    background-image: url("../../src/img/masks/1280/plakat1280-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back3 {
+    background-image: url("../../src/img/masks/1280/plakat1280-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back4{
+    background-image: url("../../src/img/masks/1280/plakat1280-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back5{
+    background-image: url("../../src/img/masks/1280/plakat1280-5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back6{
+    background-image: url("../../src/img/masks/1280/plakat1280-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back7{
+    background-image: url("../../src/img/masks/1280/plakat1280-7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back8{
+    background-image: url("../../src/img/masks/1280/plakat1280-8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back9{
+    background-image: url("../../src/img/masks/1280/plakat1280-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back10{
+    background-image: url("../../src/img/masks/1280/plakat1280-10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back11{
+    background-image: url("../../src/img/masks/1280/plakat1280-11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back12{
+    background-image: url("../../src/img/masks/1280/plakat1280-12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+
+
+  .vertical{
+    &__type-cal{
+      width: 202px;
+    }
+  }
+  .mask-back{
+    background-image: url("../../src/img/masks/1440/maska1440.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 772px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .mask-list-back1{
+    background-image: url("../../src/img/masks/1280/plakat1280-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back2{
+    background-image: url("../../src/img/masks/1280/plakat1280-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+  }
+  .mask-list-back3{
+    background-image: url("../../src/img/masks/1280/plakat1280-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 608px;
+    width: 433px;
+    .mask-list-back4{
+      background-image: url("../../src/img/masks/1280/plakat1280-4.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 608px;
+      width: 433px;
+    }
+    .mask-list-back5{
+      background-image: url("../../src/img/masks/1280/plakat1280-5.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 608px;
+      width: 433px;
+    }
+    .mask-list-back6{
+      background-image: url("../../src/img/masks/1280/plakat1280-6.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 608px;
+      width: 433px;
+    }
+    .mask-list-back7{
+      background-image: url("../../src/img/masks/1280/plakat1280-7.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 577px;
+      width: 411px;
+    }
+    .mask-list-back8{
+      background-image: url("../../src/img/masks/1280/plakat1280-8.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 577px;
+      width: 411px;
+    }
+    .mask-list-back9{
+      background-image: url("../../src/img/masks/1280/plakat1280-9.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 577px;
+      width: 411px;
+    }
+    .mask-list-back10{
+      background-image: url("../../src/img/masks/1280/plakat1280-10.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 577px;
+      width: 411px;
+    }
+    .mask-list-back11{
+      background-image: url("../../src/img/masks/1280/plakat1280-11.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 577px;
+      width: 411px;
+    }
+    .mask-list-back12{
+      background-image: url("../../src/img/masks/1280/plakat1280-12.png");
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 577px;
+      width: 411px;
+    }
+  }
+
+  .vertical {
+    &__type-cal {
+      width: 260px;
+      height: 366px;
+    }
+  }
+  .mask-back {
+    background-image: url("../../src/img/masks/1440/maska1440.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1029px;
+  }
+
+  .mask-list-back1 {
+    background-image: url("../../src/img/masks/1280/plakat1280-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back2 {
+    background-image: url("../../src/img/masks/1280/plakat1280-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back3 {
+    background-image: url("../../src/img/masks/1280/plakat1280-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back4 {
+    background-image: url("../../src/img/masks/1280/plakat1280-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back5 {
+    background-image: url("../../src/img/masks/1280/plakat1280-5.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back6 {
+    background-image: url("../../src/img/masks/1280/plakat1280-6.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back7 {
+    background-image: url("../../src/img/masks/1280/plakat1280-7.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back8 {
+    background-image: url("../../src/img/masks/1280/plakat1280-8.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back9 {
+    background-image: url("../../src/img/masks/1280/plakat1280-9.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back10 {
+    background-image: url("../../src/img/masks/1280/plakat1280-10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back11 {
+    background-image: url("../../src/img/masks/1280/plakat1280-11.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+  .mask-list-back12 {
+    background-image: url("../../src/img/masks/1280/plakat1280-12.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 577px;
+    width: 411px;
+  }
+
+}

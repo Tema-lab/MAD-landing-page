@@ -1,0 +1,186 @@
+@media (min-width: 375px) {
+  .sponsors{
+    display: none;
+  }
+  .adv-photo1{
+    background-image: url("../../src/img/advantages/img1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 335px;
+    min-height: 335px;
+  }
+  .adv-photo2{
+    background-image: url("../../src/img/advantages/img2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 335px;
+    min-height: 335px;
+  }
+  .adv-photo3{
+    background-image: url("../../src/img/advantages/img3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 335px;
+    min-height: 335px;
+  }
+  .adv-photo4{
+    background-image: url("../../src/img/advantages/img4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 335px;
+    min-height: 335px;
+  }
+  .advantages{
+    margin-top: 80px;
+
+    &__items{
+      margin-bottom: 60px;
+    }
+    &__wrapper{
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+    }
+    &__title{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 24px;
+    }
+    &__subtitle{
+      margin-top: 15px;
+      font-size: 20px;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .advantages{
+    display: none;
+  }
+}
+@media (min-width: 1440px) {
+  .advantages{
+    display: flex;
+    &__title{
+      font-size: 32px;
+    }
+  }
+  .adv-photo1{
+    background-image: url("../../src/img/advantages/1440/adv1440-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1360px;
+    height: 680px;
+  }
+  .adv-photo2{
+    background-image: url("../../src/img/advantages/1440/adv1440-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1360px;
+    height: 680px;
+  }
+  .adv-photo3{
+    background-image: url("../../src/img/advantages/1440/adv1440-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1360px;
+    height: 680px;
+  }
+  .adv-photo4{
+    background-image: url("../../src/img/advantages/1440/adv1440-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1360px;
+    height: 680px;
+  }
+  .sponsors img{
+    opacity: 1;
+  }
+
+  .sponsors{
+    overflow-x: scroll;
+  &__item{
+    margin-right: 10px;
+    margin-left: 156px;
+  }
+    &__wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    display: flex;
+    background-color: #000000;
+    height: 320px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .advantages{
+    display: flex;
+    &__title{
+      font-size: 32px;
+    }
+  }
+  .adv-photo1{
+    background-image: url("../../src/img/advantages/1920/adv-1920-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1760px;
+    height: 880px;
+  }
+  .adv-photo2{
+    background-image: url("../../src/img/advantages/1920/adv-1920-2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1760px;
+    height: 880px;
+  }
+  .adv-photo3{
+    background-image: url("../../src/img/advantages/1920/adv-1920-3.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1760px;
+    height: 880px;
+  }
+  .adv-photo4{
+    background-image: url("../../src/img/advantages/1920/adv-1920-4.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 1760px;
+    height: 880px;
+  }
+  .sponsors img{
+    opacity: 1;
+  }
+
+  .sponsors{
+    overflow-x: scroll;
+    &__item{
+      margin-right: 10px;
+      margin-left: 156px;
+    }
+    &__wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    display: flex;
+    background-color: #000000;
+    height: 320px;
+  }
+}
+
+
+

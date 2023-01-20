@@ -1,0 +1,166 @@
+.container-1280{
+  display: none;
+}
+.d{
+  margin-bottom: 2px;
+}
+.header{
+  &__title{
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.container-title{
+  display: flex;
+}
+.block{
+  width: 38px;
+  height: 40px;
+  background-color: #000000;
+}
+
+.block-title{
+  display: flex;
+
+  background-color: #000000;
+  margin-left: 7px;
+}
+.words-wrapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  padding: 9px 51px 8px 14px;
+}
+.menu{
+  list-style: none;
+  margin-block-start: 0;
+  margin-block-end: 0;
+  &__items{
+    background-color: black;
+    width: 28px;
+    height: 3px;
+    margin: 6px;
+  }
+}
+
+@media (min-width: 375px) {
+  .extra-large{
+    display: none;
+  }
+  .displayed{
+    display: none;
+  }
+  .nav{
+    display: none;
+  }
+}
+@media (min-width: 768px) {
+  .container-1280{
+    display: flex;
+  }
+  .displayed {
+    margin-right:  73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    &__items{
+      margin-left: 73px;
+    }
+  }
+  .nav{
+    margin-left: 30px;
+    display: flex;
+    margin-top: 50px;
+
+    margin-bottom: 50px;
+  }
+  .nav-link{
+
+    color: #8C8C8C;
+    font-weight: 500;
+    font-size: 16px;
+  }
+}
+@media (min-width: 1024px) {
+  .container-1280{
+    display: flex;
+    margin-left: 50px;
+  }
+  .block-title{
+    display: flex;
+    height: 40px;
+    background-color: #000000;
+    margin-left: 7px;
+  }
+  .nav{
+    margin-left: 0px;
+    display: flex;
+    margin-top: 130px;
+  }
+  .displayed {
+    margin-right:  0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    &__items{
+      margin-right: 73px;
+    }
+  }
+}
+@media (min-width: 1280px) {
+  .container-1280{
+    display: flex;
+    margin-left: 280px;
+  }
+  .nav-wrapper{
+    padding-left: 0;
+  }
+  .nav{
+    margin-left: 0px;
+    display: flex;
+    margin-top:50px;
+  }
+  .title-nav-wrapper{
+    padding-right: 250px;
+  }
+  .header__title{
+    display: flex;
+    align-items: center;
+  }
+
+  .menu{
+    display: none;
+  }
+  .displayed {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    list-style: none;
+    &__items{
+      margin-right: 0;
+    }
+  }
+  .extra-large{
+    display: flex;
+    list-style: none;
+  }
+  .extra-large-links{
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+  }
+  .extra-large-items{
+    //margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 1920px) {
+  .container-1280{
+    display: flex;
+    margin-left: 490px;
+  }
+}

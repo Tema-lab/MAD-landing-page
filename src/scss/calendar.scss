@@ -1,0 +1,1307 @@
+@media (min-width: 375px) {
+  .main-subtitle{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 58px;
+    margin-bottom: 30px;
+  }
+  .similar{
+    &__item{
+      width: 210px;
+    }
+    &__info{
+      gap: 20px;
+    }
+
+  }
+  .page-list{
+    list-style: none;
+    margin-top: 24px;
+  }
+  .page__links{
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+  }
+  .main-subtitle{
+    font-weight: 600;
+    font-size: 22px;
+    margin-top: 30px;
+  }
+  .main-sec-subtitle{
+    margin-top: 30px;
+  }
+  .main-title{
+    font-weight: 600;
+    font-size: 28px;
+
+  }
+  .list{
+    &__wrapper-mask{
+      padding-left: 20px;
+      padding-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .mask__type{
+    width: 160px;
+  }
+
+  .vert-cal-red{
+    background-image: url("../../src/img/calendar/red-cal375.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:335px;
+    height: 471px;
+  }
+  .vert-cal-black{
+    background-image: url("../../src/img/calendar/black-cal375.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:335px;
+    height: 471px;
+  }
+  .vert-cal-simple{
+    background-image: url("../../src/img/calendar/simple-cal375.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:335px;
+    height: 471px;
+  }
+  .industry{
+    &__wrapper{
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+
+      justify-content: center;
+    }
+  }
+  .calendar-lightbox{
+    background-image: url("../../src/img/calendar/list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:158px;
+    height: 223px;
+  }
+  .line-back1{
+    background-image: url("../../src/img/calendar/line-red-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .line-back2{
+    background-image: url("../../src/img/calendar/line-black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .line-back3{
+    background-image: url("../../src/img/calendar/vert-black.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .line-back4{
+    background-image: url("../../src/img/calendar/vert-red.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .industry-back1{
+    background-image: url("../../src/img/calendar/vertical1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 354px;
+    height: 501px;
+  }
+  .industry-back2{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 354px;
+    height: 501px;
+  }
+  .industry-back3{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 354px;
+    height: 501px;
+  }
+  .industry-back4{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 354px;
+    height: 501px;
+  }
+
+  .download-all{
+    margin-bottom: 40px;
+  }
+  .horizontal{
+    padding-left: 20px;
+    &__wrapper{
+      list-style: none;
+    }
+    &__link{
+      font-weight: normal;
+      font-size: 12px;
+      color: #000000;
+    }
+
+  }
+  h2{
+    margin-block-start: 0;
+    margin-block-end: 0;
+  }
+  .calendar-article{
+    margin-top: 20px;
+  }
+  .horizontal-back{
+    background-image: url("../../src/img/calendar/calendar375.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //width: 473px;
+    height: 334px;
+  }
+  .calendar-back{
+    background-image: url("../../src/img/calendar/calendar.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 264px;
+  }
+  .calendar{
+
+    &__list{
+      margin-left: 15px;
+    }
+    &__types-wrapper{
+      margin-top: 24px;
+      list-style: none;
+    }
+    &__links{
+
+      color: #000000;
+      font-weight: normal;
+      font-size: 14px;
+    }
+    &__links:hover{
+      text-decoration-line: underline;
+    }
+    &__title{
+      margin-top: 5px;
+      font-weight: 600;
+      font-size: 28px;
+    }
+    &__icons{
+      display: flex;
+      justify-content: flex-start;
+      margin: 3px;
+    }
+
+    &__sec-subtitle{
+      font-weight: normal;
+      font-size: 14px;
+      color: #000000;
+      margin-top: 30px;
+    }
+    &__type{
+      padding-bottom: 8px;
+    }
+
+    &__type::before{
+      content: '\1F826';
+      vertical-align: -2px;
+      display: inline-block;
+      margin-right: 10px;
+    }
+    &__download-link{
+      font-weight: normal;
+      font-size: 14px;
+      color: black;
+    }
+    &__download{
+      margin-bottom: 50px;
+      margin-top: 32px;
+    }
+    &__download::before{
+      margin-right: 10px;
+      content: '\1F827';
+    }
+  }
+  .icon{
+    margin-top: 57px;
+    &__counter{
+      padding-left: 15px;
+    }
+    &__date{
+      padding-left: 15px;
+    }
+  }
+  .eye-wrapper{
+    display: flex;
+    margin-right: 30px;
+  }
+  .cal-wrapper{
+    display: flex;
+    padding-left: 15px;
+  }
+  .vertical{
+    &__type{
+      width: 150px;
+    }
+    &__wrapper{
+      list-style: none;
+      margin-top: 40px;
+    }
+
+    &__download{
+      margin-bottom: 30px;
+    }
+    &__download::before{
+      content: '\1F827';
+      display: inline-block;
+      vertical-align: -2px;
+      margin-right: 3px;
+    }
+    &__link{
+      color: #000000;
+      font-weight: normal;
+      font-size: 12px;
+    }
+    &__subtitle{
+      margin-top: 10px;
+      margin-bottom: 5px;
+      font-weight: normal;
+      font-size: 12px;
+      color: #808080;
+    }
+  }
+  .types{
+    background-color: #F2F2F2;
+  }
+
+  .list{
+    &__wrapper{
+      position: relative;
+      width: 100%;
+      height: 100%;
+      padding-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .similar{
+
+    overflow-x: scroll;
+    background-color: #000000;
+    &__wrapper{
+      padding-top: 50px;
+      padding-left: 40px;
+    }
+    &__item{
+      display: flex;
+      flex-direction: column;
+    }
+    &__title{
+      margin-bottom: 30px;
+      font-style: normal;
+      font-weight: 600;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    &__block{
+      display: inline-block;
+      width: 210px;
+      height: 165px;
+      background-color: #ffffff;
+    }
+    &__info{
+      display: flex;
+    }
+    &__text{
+      font-style: normal;
+      font-weight: 600;
+      font-size: 14px;
+      color: #ffffff;
+      margin-top: 20px;
+      margin-bottom: 39px;
+    }
+  }
+  .pad{
+    margin-right: 20px;
+  }
+  .horizontal{
+    &__subtitle{
+      margin-top: 7px;
+      margin-bottom: 5px;
+      font-weight: normal;
+      font-size: 12px;
+      color: #808080;
+    }
+    &__title{
+      margin-top: 25px;
+      font-size: 22px;
+    }
+    &__download{
+      margin-top: 20px;
+    }
+    &__download::before{
+      content: '\1F827';
+      display: inline-block;
+      vertical-align: -2px;
+      margin-right: 3px;
+    }
+  }
+  .calendar-lightbox:hover img{
+    transform: translateZ(-100px)scale(1.5);
+  }
+  .calendar-lightbox img{
+    z-index: 99999;
+    transition:transform 0.25s ease;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .main-title{
+    padding-left: 0;
+    font-size: 32px;
+  }
+  .main-subtitle{
+    font-weight: 600;
+    font-size: 24px;
+    margin-top: 58px;
+    margin-bottom: 50px;
+  }
+  .similar{
+    &__item{
+      width: 334px;
+    }
+    &__info{
+      gap: 20px;
+    }
+
+  }
+  .list{
+    &__wrapper-mask{
+      padding-left: 20px;
+      padding-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+    }
+  }
+  .mask__type{
+    width: 229px;
+  }
+
+  .similar{
+    margin-top: 0;
+      &__wrapper{
+        padding-top: 50px;
+        padding-left: 40px;
+      }
+      &__item{
+        display: flex;
+        flex-direction: column;
+      }
+      &__title{
+        margin-bottom: 30px;
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        color: #ffffff;
+      }
+      &__block{
+        display: inline-block;
+        width: 334px;
+        height: 250px;
+        background-color: #ffffff;
+      }
+      &__info{
+        display: flex;
+      }
+      &__text{
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        color: #ffffff;
+        margin-top: 20px;
+        margin-bottom: 39px;
+      }
+
+  }
+  .list{
+    &__wrapper{
+      padding-bottom: 60px;
+    }
+  }
+  .calendar-lightbox{
+    background-image: url("../../src/img/calendar/list768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:229px;
+    height: 323px;
+  }
+  .line-back1{
+    background-image: url("../../src/img/calendar/line-red-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .line-back2{
+    background-image: url("../../src/img/calendar/line-black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .line-back3{
+    background-image: url("../../src/img/calendar/line-pure-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .line-back4{
+    background-image: url("../../src/img/calendar/line-pure-sec-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .industry-back1{
+    background-image: url("../../src/img/calendar/red-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 354px;
+    height: 501px;
+  }
+  .industry-back2{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 354px;
+    height: 501px;
+  }
+  .industry-back3{
+    background-image: url("../../src/img/calendar/wide-red-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .industry-back4{
+    background-image: url("../../src/img/calendar/wide-black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .horizontal-back{
+    background-image: url("../../src/img/calendar/calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 501px;
+    height: 354px;
+  }
+  .calendar-back{
+    background-image: url("../../src/img/calendar/calendar_bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 411px;
+  }
+  .calendar{
+
+    &__subtitle{
+      font-size: 24px;
+    }
+    &__links{
+      font-size: 18px;
+    }
+    &__download-link{
+      font-size: 18px;
+    }
+  }
+  .download-all{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+  }
+  .horizontal{
+    &__type{
+      margin-bottom: 15px;
+    }
+    &__wrapper{
+      display: flex;
+      flex-wrap: wrap;
+    }
+    &__download::before{
+      content: '\1F827';
+      display: inline-block;
+      vertical-align: -2px;
+      margin-right: 3px;
+    }
+    &__download{
+
+      margin-left: 20px;
+      margin-top: 0;
+    }
+    &__title{
+      margin-bottom: 30px;
+    }
+    &__link{
+      color: #000000;
+      font-weight: normal;
+      font-size: 12px;
+    }
+    &__subtitle{
+      margin-top: 15px;
+    }
+  }
+
+  .vertical{
+
+    &__wrapper{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content:space-between;
+      gap: 30px;
+    }
+    &__title{
+      padding-right: 0;
+      font-weight: 600;
+      font-size: 20px;
+      color: #000000;
+      margin-top: 0;
+      margin-bottom:0;
+    }
+    &__download{
+      margin-bottom: 0;
+      margin-left: 20px;
+    }
+  }
+  .industry{
+    &__wrapper{
+      margin-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+    }
+  }
+  .calendar{
+    &__title{
+      font-size: 32px;
+      font-weight: 600;
+      padding-right: 280px;
+    }
+  }
+  .page__links{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #000000;
+  }
+}
+@media (min-width: 1024px) {
+  .page__links{
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 14px;
+    margin-left: 10px;
+    color: #000000;
+  }
+  .calendar{
+    &__type {
+      display: flex;
+      flex-direction: column;
+    }
+    &__type::before{
+      content: '\1F826';
+      margin-top:  20px;
+      display: inline-block;
+      //margin-top: 10px;
+      //margin-right: 10px;
+    }
+  }
+
+
+  .list{
+    &__wrapper-mask{
+      //padding-left: 30px;
+      padding-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+  .mask__type{
+    width: 300px;
+  }
+
+
+
+  .calendar {
+    &__title {
+      font-size: 42px;
+    }
+  }
+  .line-back1{
+    background-image: url("../../src/img/calendar/industry-wide-black1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 278px;
+  }
+  .line-back2{
+    background-image: url("../../src/img/calendar/industry-wide-black1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 278px;
+  }
+  .line-back3{
+    background-image: url("../../src/img/calendar/industry-wide-black1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 278px;
+  }
+  .line-back4{
+    background-image: url("../../src/img/calendar/industry-wide-black1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 278px;
+  }
+
+  .calendar-back{
+    background-image: url("../../src/img/calendar/calendar1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 548px;
+  }
+  .vert-cal-red{
+    background-image: url("../../src/img/calendar/vert-cal-red1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:301px;
+    height: 424px;
+  }
+  .vert-cal-black{
+    background-image: url("../../src/img/calendar/vert-cal-black1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:301px;
+    height: 424px;
+  }
+  .vert-cal-simple{
+    background-image: url("../../src/img/calendar/vert-cal-simple1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:301px;
+    height: 424px;
+  }
+  .horizontal-back{
+    background-image: url("../../src/img/calendar/horizontal-cal1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 426px;
+    height: 301px;
+  }
+  .industry{
+  &__wrapper{
+    margin-top: 20px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    gap: 20px;
+  }
+}
+  .vertical__wrapper.linear{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    gap: 30px;
+  }
+  .vertical{
+    &__wrapper{
+      display: flex;
+      flex-wrap:nowrap;
+      justify-content:center;
+      gap: 30px;
+    }
+    &__title{
+      padding-right: 0;
+      font-weight: 600;
+      font-size: 20px;
+      color: #000000;
+      margin-top: 0;
+      margin-bottom:0;
+    }
+    &__download{
+      margin-bottom: 0;
+      margin-left: 0;
+    }
+  }
+  .vertical__wrapper.linear{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    gap: 30px;
+  }
+  .calendar-lightbox{
+    background-image: url("../../src/img/calendar/calendar-list1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 141px;
+    height: 199px;
+  }
+  .horizontal{
+    padding-left: 40px;
+    &__type{
+      margin-bottom: 15px;
+    }
+    &__wrapper{
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+    }
+    &__download::before{
+      content: '\1F827';
+      display: inline-block;
+      vertical-align: -2px;
+      margin-right: 3px;
+    }
+    &__download{
+      margin-left: 20px;
+      margin-top: 0;
+    }
+    &__title{
+      margin-bottom: 30px;
+    }
+    &__link{
+      color: #000000;
+      font-weight: normal;
+      font-size: 12px;
+    }
+    &__subtitle{
+      margin-top: 15px;
+    }
+  }
+  .industry-back1{
+    background-image: url("../../src/img/calendar/industry-red1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 301px;
+    height: 426px;
+  }
+  .industry-back2{
+    background-image: url("../../src/img/calendar/industry-black1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 301px;
+    height: 426px;
+  }
+  .industry-back3{
+    background-image: url("../../src/img/calendar/industry-wide1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 278px;
+  }
+  .industry-back4{
+    background-image: url("../../src/img/calendar/industry-wide-black1024.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 393px;
+    height: 278px;
+  }
+  .similar{
+    &__block{
+      width: 301px;
+      height: 225px;
+    }
+    &__info{
+      display: flex;
+      gap: 20px;
+    }
+
+  }
+.pad{
+  margin-right: 0;
+}
+  .calendar__links{
+    margin-top: -17px;
+    font-weight: 400;
+    font-size: 18px;
+    margin-left: 25px;
+    color: #000000;
+  }
+
+}
+@media (min-width: 1280px) {
+  .main-title{
+    padding-left: 0;
+    font-size: 42px;
+  }
+  .similar{
+    &__item{
+      width: 380px;
+    }
+    &__info{
+      gap: 20px;
+    }
+
+  }
+
+  .list{
+    &__wrapper-mask{
+      //padding-left: 30px;
+      padding-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 40px;
+    }
+  }
+  .mask__type{
+    width: 381px;
+  }
+
+  .similar{
+    &__block{
+      width: 301px;
+      height: 225px;
+    }
+    &__info{
+      display: flex;
+      gap: 30px;
+    }
+
+  }
+  .calendar-back{
+    background-image: url("../../src/img/calendar/calendar-bg1280.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 685px;
+  }
+  .similar {
+
+    &__block {
+      display: inline-block;
+      width: 380px;
+      height: 285px;
+      background-color: #ffffff;
+    }
+  }
+  .calendar{
+    padding-left: 240px;
+  }
+
+  .calendar{
+    &__title{
+      padding-right: 0px;
+    }
+    &__subtitle{
+      margin-bottom: 30px;
+    }
+  }
+  .vertical{
+    &__type{
+      width: 100px;
+    }
+    &__download{
+      margin-left: 10px;
+    }
+    &__wrapper{
+      display: flex;
+      justify-content: flex-start;
+    }
+  }
+  .industry{
+    &__wrapper{
+      display: flex;
+      justify-content: flex-start;
+      padding-right: 300px;
+      padding-right: 300px;
+    }
+  }
+  .calendar-lightbox{
+    background-image: url("../../src/img/calendar/list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:158px;
+    height: 223px;
+  }
+}
+@media (min-width: 1440px) {
+  .similar{
+    &__item{
+      width: 433px;
+    }
+    &__info{
+      gap: 20px;
+    }
+
+  }
+  .list{
+    &__wrapper-mask{
+      //padding-left: 30px;
+      padding-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 50px;
+    }
+  }
+  .mask__type{
+    width: 433px;
+  }
+
+
+
+  .calendar-back{
+    background-image: url("../../src/img/calendar/calendar1440.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 771px;
+  }
+  .horizontal-back{
+    background-image: url("../../src/img/calendar/calendar375.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .industry-back1{
+    background-image: url("../../src/img/calendar/vertical1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 318px;
+    height: 450px;
+  }
+  .industry-back2{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 318px;
+    height: 450px;
+  }
+  .industry-back3{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .industry-back4{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back1{
+    background-image: url("../../src/img/calendar/line-red-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back2{
+    background-image: url("../../src/img/calendar/line-black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back3{
+    background-image: url("../../src/img/calendar/vert-black.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back4{
+    background-image: url("../../src/img/calendar/vert-red.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .calendar-lightbox{
+    background-image: url("../../src/img/calendar/list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:202px;
+    height: 285px;
+  }
+
+  .similar{
+    &__block{
+      display: inline-block;
+      width: 433px;
+      height: 325px;
+      background-color: #ffffff;
+    }
+
+  }
+}
+
+@media (min-width: 1920px) {
+  .similar{
+    &__item{
+      width: 560px;
+    }
+    &__info{
+      gap: 20px;
+    }
+
+  }
+  .list{
+    &__wrapper-mask{
+      padding-right: 500px;
+      padding-top: 20px;
+      list-style: none;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 50px;
+    }
+  }
+  .mask__type{
+    width: 411px;
+  }
+
+
+  .calendar-back{
+    background-image: url("../../src/img/calendar/calendar1440.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 1027px;
+  }
+  .horizontal-back{
+    background-image: url("../../src/img/calendar/calendar375.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .industry-back1{
+    background-image: url("../../src/img/calendar/vertical1.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 318px;
+    height: 450px;
+  }
+  .industry-back2{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 318px;
+    height: 450px;
+  }
+  .industry-back3{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .industry-back4{
+    background-image: url("../../src/img/calendar/black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back1{
+    background-image: url("../../src/img/calendar/line-red-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back2{
+    background-image: url("../../src/img/calendar/line-black-calendar768.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back3{
+    background-image: url("../../src/img/calendar/vert-black.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+  .line-back4{
+    background-image: url("../../src/img/calendar/vert-red.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 318px;
+  }
+
+  .calendar-lightbox{
+    width: 260px;
+    height: 366px;
+  }
+  .linear{
+    padding-right: 0;
+  }
+
+  .industry{
+    &__wrapper{
+      padding-right: 100px;
+    }
+  }
+  .calendar-lightbox{
+    background-image: url("../../src/img/calendar/list.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width:260px;
+    height: 366px;
+  }
+  .calendar{
+    &__subtitle{
+
+    }
+    &__title-cal{
+      margin-top: 5px;
+      font-weight: 600;
+      font-size: 42px;
+
+    }
+  }
+  .similar{
+    &__title{
+      font-size: 36px;
+    }
+    &__text{
+      font-size: 24px;
+    }
+    &__block{
+      display: inline-block;
+      width: 560px;
+      height: 420px;
+      background-color: #ffffff;
+    }
+    &__info{
+      padding-left: 50px;
+      padding-right: 140px;
+      //gap: 50px;
+    }
+
+  }
+}
+.calendar-img{
+  position: relative;
+}
+.download-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 32px;
+  height: 32px;
+  background-color: #ffffff;
+}

@@ -1,0 +1,22 @@
+@font-face {
+  font-family: 'Mont';
+  src: url("./src/fonts/Mont-SemiBold.otf");
+}
+
+
+
+body{
+  font-family: 'Mont',sans-serif;
+}
+@import "./header";
+@import "./mixins";
+@import "./general";
+@import "./navigation";
+@import "./materials";
+@import "./contacts";
+@import "./advantages";
+@import "./footer";
+@import "./calendar";
+@import "mask";
+@import "article";
+@import "other-work";
